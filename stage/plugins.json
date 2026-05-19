@@ -1,6 +1,248 @@
 {
   "repos": [
     {
+      "installSize": 10967530,
+      "openIssues": 0,
+      "package": {
+        "author": "HowcanoeWang",
+        "backends": [
+          "windows",
+          "linux",
+          "darwin",
+          "ios",
+          "android",
+          "harmony",
+          "docker"
+        ],
+        "description": {
+          "default": "Add a background you like to cover the entire Siyuan Note",
+          "zh_CN": "添加一张你喜欢的背景铺满整个思源笔记"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "default": "Background Cover",
+          "zh_CN": "替换背景图片"
+        },
+        "frontends": [
+          "desktop",
+          "mobile",
+          "browser-desktop",
+          "browser-mobile",
+          "desktop-window"
+        ],
+        "funding": {
+          "custom": null,
+          "github": "https://github.com/HowcanoeWang",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "background",
+          "cover",
+          "wallpaper",
+          "背景",
+          "壁纸"
+        ],
+        "minAppVersion": "3.2.1",
+        "name": "siyuan-plugin-background-cover",
+        "readme": {
+          "default": "README.md",
+          "en_US": "README_en_US.md",
+          "zh_CN": "README.md"
+        },
+        "url": "https://github.com/HowcanoeWang/siyuan-plugin-background-cover",
+        "version": "1.1.0"
+      },
+      "size": 10758645,
+      "stars": 10,
+      "updated": "2026-05-19T04:31:45Z",
+      "url": "HowcanoeWang/siyuan-plugin-background-cover@c1a438ed8b349825eb616bc9c2405fb79d679cb9"
+    },
+    {
+      "installSize": 812787,
+      "openIssues": 1,
+      "package": {
+        "author": "li.mian",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A personal ledger plugin for SiYuan.",
+          "zh_CN": "一个基于思源笔记的账本插件"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "default": "pledger",
+          "zh_CN": "账本"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://afdian.com/a/limian"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "ledger",
+          "账本"
+        ],
+        "minAppVersion": "3.2.1",
+        "name": "siyuan-pledger",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/double3-org/siyuan-pledger",
+        "version": "0.0.2"
+      },
+      "size": 381272,
+      "stars": 5,
+      "updated": "2026-05-19T02:46:00Z",
+      "url": "double3-org/siyuan-pledger@c52d5019601e4f3af8a2c683a28a482b1c5ee2a1"
+    },
+    {
+      "installSize": 11845722,
+      "openIssues": 3,
+      "package": {
+        "author": "suka233",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A fully redesigned KMind mind mapping plugin for SiYuan. Drag SiYuan documents and blocks directly into your mind maps, with unlimited summary levels, cloze nodes, bidirectional links, and more. Currently in public beta.",
+          "zh_CN": "全新设计的 KMind 思维导图插件，可直接将思源文档和思源块拖入导图，支持无限层级概要、节点挖空、节点双链等能力；当前为公测版。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "KMind Zen Mind Map Plugin",
+          "zh_CN": "KMind Zen 思维导图插件"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": null,
+        "keywords": [
+          "思维导图",
+          "mindmap",
+          "KMind",
+          "KMindZen",
+          "KMind Zen"
+        ],
+        "minAppVersion": "3.0.0",
+        "name": "siyuan-kmind-zen",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/suka233/siyuan-kmind-zen",
+        "version": "0.13.0"
+      },
+      "size": 8649091,
+      "stars": 2,
+      "updated": "2026-05-18T15:02:30Z",
+      "url": "suka233/siyuan-kmind-zen@2af8fc2d51044cafa50c8f90ac9f6441015cced7"
+    },
+    {
+      "installSize": 309896,
+      "openIssues": 1,
+      "package": {
+        "author": "notesynchelper",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "从微信同步到思源笔记，支持文字、图片、聊天记录、文章"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "笔记同步助手"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "wechat",
+          "template",
+          "企微",
+          "模板",
+          "微信",
+          "速记",
+          "剪藏",
+          "搜集",
+          "日记",
+          "闪念",
+          "memo",
+          "备忘",
+          "公众号",
+          "小红书",
+          "得到"
+        ],
+        "minAppVersion": "3.3.0",
+        "name": "siyuan-notehelper",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/notesynchelper/siyuan-notehelper",
+        "version": "1.7.27"
+      },
+      "size": 147009,
+      "stars": 1,
+      "updated": "2026-05-18T12:36:23Z",
+      "url": "notesynchelper/siyuan-notehelper@98b752e7a6798c0580d5f138aafbd55b83ab8de8"
+    },
+    {
+      "installSize": 1159333,
+      "openIssues": 0,
+      "package": {
+        "author": "LXiuu",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Switch the current document into a lightweight Markdown source editor.",
+          "zh_CN": "将当前文档切换为轻量 Markdown 源码编辑状态。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Markdown Source Mode",
+          "zh_CN": "Markdown源码模式"
+        },
+        "frontends": [
+          "desktop",
+          "browser-desktop",
+          "desktop-window"
+        ],
+        "funding": null,
+        "keywords": [
+          "Markdown",
+          "源码模式",
+          "编辑器",
+          "Source Mode"
+        ],
+        "minAppVersion": "3.3.0",
+        "name": "siyuan-plugin-markdown-edit-mode",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/LXiuu/siyuan-plugin-markdown-edit-mode",
+        "version": "0.1.3"
+      },
+      "size": 351750,
+      "stars": 0,
+      "updated": "2026-05-18T09:13:34Z",
+      "url": "LXiuu/siyuan-plugin-markdown-edit-mode@faea458c81480709c2274dc26749cd3e7a54d715"
+    },
+    {
       "installSize": 9719359,
       "openIssues": 0,
       "package": {
@@ -45,48 +287,6 @@
       "stars": 21,
       "updated": "2026-05-18T06:48:34Z",
       "url": "5kyfkr/siyuan-plugin-task-horizon@62937952d01626f95329d33da8715c0ac78b3778"
-    },
-    {
-      "installSize": 11838897,
-      "openIssues": 3,
-      "package": {
-        "author": "suka233",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A fully redesigned KMind mind mapping plugin for SiYuan. Drag SiYuan documents and blocks directly into your mind maps, with unlimited summary levels, cloze nodes, bidirectional links, and more. Currently in public beta.",
-          "zh_CN": "全新设计的 KMind 思维导图插件，可直接将思源文档和思源块拖入导图，支持无限层级概要、节点挖空、节点双链等能力；当前为公测版。"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "KMind Zen Mind Map Plugin",
-          "zh_CN": "KMind Zen 思维导图插件"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": null,
-        "keywords": [
-          "思维导图",
-          "mindmap",
-          "KMind",
-          "KMindZen",
-          "KMind Zen"
-        ],
-        "minAppVersion": "3.0.0",
-        "name": "siyuan-kmind-zen",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/suka233/siyuan-kmind-zen",
-        "version": "0.12.0"
-      },
-      "size": 8646985,
-      "stars": 2,
-      "updated": "2026-05-18T06:36:43Z",
-      "url": "suka233/siyuan-kmind-zen@a8d011db843e3b5f0601edc60ec227e848d0f75a"
     },
     {
       "installSize": 550195,
@@ -213,64 +413,6 @@
       "stars": 184,
       "updated": "2026-05-18T04:17:12Z",
       "url": "Achuan-2/siyuan-plugin-task-note-management@b996ada7949992b21249d4fbab9cc8e4cb5686ed"
-    },
-    {
-      "installSize": 9011619,
-      "openIssues": 0,
-      "package": {
-        "author": "HowcanoeWang",
-        "backends": [
-          "windows",
-          "linux",
-          "darwin",
-          "ios",
-          "android",
-          "harmony",
-          "docker"
-        ],
-        "description": {
-          "default": "Add a background you like to cover the entire Siyuan Note",
-          "zh_CN": "添加一张你喜欢的背景铺满整个思源笔记"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "default": "Background Cover",
-          "zh_CN": "替换背景图片"
-        },
-        "frontends": [
-          "desktop",
-          "mobile",
-          "browser-desktop",
-          "browser-mobile",
-          "desktop-window"
-        ],
-        "funding": {
-          "custom": null,
-          "github": "https://github.com/HowcanoeWang",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "background",
-          "cover",
-          "wallpaper",
-          "背景",
-          "壁纸"
-        ],
-        "minAppVersion": "3.2.1",
-        "name": "siyuan-plugin-background-cover",
-        "readme": {
-          "default": "README.md",
-          "en_US": "README_en_US.md",
-          "zh_CN": "README.md"
-        },
-        "url": "https://github.com/HowcanoeWang/siyuan-plugin-background-cover",
-        "version": "1.0.0"
-      },
-      "size": 8836793,
-      "stars": 10,
-      "updated": "2026-05-17T18:44:43Z",
-      "url": "HowcanoeWang/siyuan-plugin-background-cover@cdd525f26374d7a5c231331fe53428f5c0d510bd"
     },
     {
       "installSize": 679526,
@@ -1071,60 +1213,6 @@
       "stars": 7,
       "updated": "2026-05-15T08:15:59Z",
       "url": "5kyfkr/siyuan-plugin-docktomato@c7f934a5794ac5ea2e0111538c47fcc98aff1e07"
-    },
-    {
-      "installSize": 309896,
-      "openIssues": 1,
-      "package": {
-        "author": "notesynchelper",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "从微信同步到思源笔记，支持文字、图片、聊天记录、文章"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "笔记同步助手"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "wechat",
-          "template",
-          "企微",
-          "模板",
-          "微信",
-          "速记",
-          "剪藏",
-          "搜集",
-          "日记",
-          "闪念",
-          "memo",
-          "备忘",
-          "公众号",
-          "小红书",
-          "得到"
-        ],
-        "minAppVersion": "3.3.0",
-        "name": "siyuan-notehelper",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/notesynchelper/siyuan-notehelper",
-        "version": "1.7.26"
-      },
-      "size": 147009,
-      "stars": 1,
-      "updated": "2026-05-14T11:16:57Z",
-      "url": "notesynchelper/siyuan-notehelper@a10a126c745b091764331d1bb8119c216e6b94c9"
     },
     {
       "installSize": 1327135,
@@ -5134,51 +5222,6 @@
       "stars": 0,
       "updated": "2026-02-12T02:28:06Z",
       "url": "583175694/siyuan-plugin-mermaid-zoom@43803c83de3be166e48b1072eaaf0938c445a0b8"
-    },
-    {
-      "installSize": 811905,
-      "openIssues": 1,
-      "package": {
-        "author": "li.mian",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A personal ledger plugin for SiYuan.",
-          "zh_CN": "一个基于思源笔记的账本插件"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "default": "pledger",
-          "zh_CN": "账本"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://afdian.com/a/limian"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "ledger",
-          "账本"
-        ],
-        "minAppVersion": "3.2.1",
-        "name": "siyuan-pledger",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/double3-org/siyuan-pledger",
-        "version": "0.0.1"
-      },
-      "size": 380985,
-      "stars": 4,
-      "updated": "2026-02-11T09:34:32Z",
-      "url": "double3-org/siyuan-pledger@dbdc80693ba2eb92e2f580ed5b5a31f7fdb1ee1f"
     },
     {
       "installSize": 219006,
